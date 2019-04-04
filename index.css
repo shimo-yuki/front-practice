@@ -1,0 +1,683 @@
+p, .main{
+  margin: 0;
+  padding: 0;
+}
+
+.container, .col-lg-3, .col-lg-6{
+  padding: 0;
+}
+
+header .container{
+  max-width: 1190px;
+  height: 46px;
+}
+
+body{
+  background-color: #E6ECF0;
+  font-family: Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  line-height: 20px;
+}
+
+.container{
+  max-width: 1190px;
+}
+a {
+  color: #000000;
+}
+
+.col-lg-3{
+  width: 290px;
+  flex: 0;
+}
+
+.col-lg-6{
+  max-width: 590px;
+  flex: 0;
+  margin: 0 10px;
+}
+
+a:hover{
+text-decoration: none ;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header{
+  height: 47px;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.row{
+  max-width: 1190px;
+  margin: 0px;
+}
+
+nav div ul li a, nav div ul li {
+  height: 46px;
+}
+.left i{
+  font-size: 20px;
+  width: 23px;
+  height: 23px;
+  margin: 11px 0 0 10px;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link{
+  padding: 0px;
+  height: 43px;
+}
+
+.nav-link{
+  height: 46px;
+}
+.nav-link  span{
+  font-size: 13px;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-top: 17px;
+  padding: 0;
+}
+.home {
+  border-bottom: 2px solid #1DA1F2;
+}
+.fa-twitter, .fa-home, .home span{
+  color: #1DA1F2;
+}
+
+.nav-item a:hover{
+  border-bottom: 2px solid #1DA1F2;
+}
+.nav-item a:hover span, .nav-item a:hover, .nav-item a:hover i {
+  color: #1DA1F2;
+}
+
+.header-serch{
+  background-color: #F5F8FB;
+  font-size: 12px;
+  height: 32px;
+  padding: 8px 32px 8px 12px;
+}
+
+.header-form{
+  height: 46px;
+}
+
+.form-inline{
+  height: 33px;
+  margin: 7px 15px 0 0;
+  font-size: 12px;
+  width: 221px;
+  position: relative;
+}
+
+.search-icon{
+  display: block;
+  height: 26px;
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  width: 26px;
+  color: #67757F;
+}
+
+.fa-search{
+  display: block;
+  height: 26px;
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  width: 26px;
+  color: #67757F;
+}
+header .header-form a img{
+  height: 100%;
+}
+.header-icon{
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+
+.fa-twitter{
+  line-height: 46px;
+  margin: 0px;
+}
+.header-tweet{
+  background-color: #4AB3F4;
+  height: 34px;
+  color: #fff;
+  float: left;
+  padding: 6px 16px;
+  line-height: 20px;
+}
+
+.header-tweet span{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+main{
+  background-color: #E6ECF0;
+  padding: 56px 14px 15px;
+  position: relative;
+}
+
+.sidebar-profile{
+  margin-bottom: 10px;
+  width: 288px;
+}
+.sidebar-profile-header{
+  background-image: url("hari.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 288px;
+  height: 95px;
+}
+
+.sidebar-profile-myicon{
+  width: 72px;
+  height: 72px;
+  border: solid 2px #ffffff;
+  margin-top: -30px;
+  margin-left: 8px;
+  margin-bottom 7px;
+}
+
+.sidebar-profile-bottom{
+  background-color: #ffffff;
+  height: 118px;
+  width: 288px;
+}
+
+.sidebar-profile-bottom-right{
+position: absolute;
+top: 110px;
+left: 90px;
+bottom: 66px;
+height: 43px;
+width: 185px;
+
+}
+
+.sidebar-profile-bottom-right div{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  margin: -1px 0 -2px 0;
+  line-height: 20px;
+}
+.sidebar-profile-bottom-name{
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.sidebar-profile-bottom-right a:hover{
+  text-decoration: underline;
+  color: #131619;
+
+}
+.sidebar-profile-bottom-id{
+  font-size: 14px;
+  color: #647786;
+  line-height: 5px;
+  font-weight: normal;
+
+}
+
+.sidebar-profile-bottom-status{
+  padding: 16px;
+}
+
+.sidebar-profile-bottom-statuslist{
+  display: inline-block;
+  list-style: none;
+  width: 85px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #647786;
+}
+
+.sidebar-profile-bottom-statuslist a, .sidebar-profile-bottom-statuslist-f a {
+  color: #647786;
+}
+
+.sidebar-profile-bottom-statuslist a:hover, .sidebar-profile-bottom-statuslist-f a:hover{
+  color: #4AB3F4;
+}
+.sidebar-profile-bottom-statuslist-f{
+  display: inline-block;
+  list-style: none;
+  width: 75px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #647786;
+}
+
+.sidebar-profile-bottom-status-font{
+  font-size: 18px;
+  color: #1DA1F2;
+}
+
+.search-width {
+  width: 221px;
+}
+ relative;
+}
+.sidebar-right{
+  background-color: #ffffff;
+}
+
+.right-actions{
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+
+.right-actions li{
+  height: 32px;
+}
+
+.right-action-tweet{
+  margin-left: 18px;
+  height: 34px;
+}
+
+.sub-trend{
+  padding: 15px;
+}
+
+.trend{
+  background-color: #ffffff
+}
+
+.sub-trend-top span{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.trend-dod{
+  font-size: 12px;
+}
+.trend .trend-change{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.sub-trend a{
+  color: #1DA1F2;
+}
+.sub-trend a:hover{
+  text-decoration: underline;
+}
+.trend-item{
+  text-decoration:
+}
+
+.sub-trend-top{
+  margin-bottom: 5px;
+}
+
+.trend-top{
+  margin-top: -4px;
+  line-height: 17px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.trend-top-content{
+  max-height: 51px;
+  font-weight: normal;
+}
+
+.trend-top-icon{
+  color: #657786;
+  margin-top: 0;
+  padding-bottom: 0;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.trend-top-icon i{
+  position: relative;
+  top: 2px;
+  margin-right: 4px;
+}
+
+.sub-trend li, .sub-trend ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.trend li{
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.trend li:last-child{
+  margin: 0;
+}
+
+.trend li span{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.trend li .trend-item a{
+  color: #657786;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.trend-item a:hover{
+  text-decoration: none;
+}
+
+
+.fa-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+
+.main-myicon{
+  position: absolute;
+  left: 28px;
+  top: 13px;
+  width: 32px;
+  height: 32px;
+}
+
+.main-top-form .form-control::-webkit-input-placeholder{
+    color: #1DA1F2;
+    font-size: 14px;
+}
+
+.main{
+  width: 590px;
+}
+.main-top{
+  height: 58px;
+  background-color: #E7F6FD;
+  border: 1px solid #e6ecf0;
+}
+
+.main-top-center{
+  padding: 10px 12px;
+  position:relative;
+}
+
+.main-myicon, .main-top-form{
+  display: inline-block;
+}
+
+.main-top-form-text{
+  border: 1px solid #C6E7FB;
+  position: relative;
+  border-radius: inherit;
+}
+
+.main-top-tweet{
+  position: relative;
+  border-radius: 8px;
+}
+
+.main-top-form{
+  color: #4AB3F4;
+  width: 508px;
+  margin-left: 56px;
+}
+
+.tweet{
+  position: relative;
+}
+
+.tweet1{
+  background-color: #fff;
+  border-left: 1px solid #e6ecf0;
+  border-right: 1px solid #e6ecf0;
+  border-bottom: 1px solid #e6ecf0;
+  width: 590px;
+  height: 90px;
+}
+
+.tweet1-content{
+  position: relative;
+  padding: 9px 12px;
+}
+
+.tweet1-main-content{
+  margin-left: 58px;
+}
+
+.tweet1-main-name{
+  display: flex;
+}
+
+.user-icon{
+  float: left;
+  margin-top: 3px;
+  margin-left: -58px;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+.user-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.user-id{
+  font-size: 14px;
+  color: #657786;
+}
+
+.tweet-time{
+  margin-right: 5px;
+  color: #657786;
+  font-size: 14px;
+}
+.down{
+  margin: -2px -9px 0 auto;
+}
+
+.fa-chevron-down{
+  font-weight: bold;
+  padding: 2px 9px;
+  color: #657786;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  position: relative;
+}
+
+.tweet1-main-tweet p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tweet1-main-icon{
+  font-size: 0;
+  height: 18px;
+  line-height: 1px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.tweet1-icon-reply, .tweet1-icon-retweet, .tweet2-icon-retweet, .tweet1-icon-favorite,.tweet2-icon-favorite, .tweet1-icon-chart{
+  min-width: 80px;
+  display: inline-block;
+}
+
+.tweet1-icon-reply a, .tweet1-icon-retweet a,.tweet2-icon-retweet a, .tweet1-icon-favorite a,.tweet2-icon-favorite a, .tweet1-icon-chart a{
+  color: #657786;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 2px;
+  position: relative;
+}
+
+.tweet1-icon-reply a:hover, .tweet1-icon-chart a:hover{
+  color: #4AB3F4;
+}
+
+.tweet1-icon-retweet a:hover{
+  color: #17BF62;
+}
+.tweet1-icon-favorite a{
+  color: #E0255E;
+}
+
+.tweet2-icon-favorite a:hover{
+  color: #E0255E;
+}
+
+.fa-comment-dots, .fa-retweet, .fa-heart{
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.tweet1-icon-favorite span{
+  margin-left: 6px;
+  position: relative;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 12px;
+  vertical-align: text-bottom;
+}
+
+.tweet2-icon-retweet a{
+  color: #17BF62;
+}
+
+.sidebar-right-top{
+  width: 290px;
+}
+
+.sidebar-right{
+  width: 100%;
+}
+
+.feature{
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.feature-top{
+  margin-bottom: 10px;
+}
+.feature h3{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+}
+.feature{
+  display: inline-block;
+}
+.feature small{
+  line-height: 1;
+  font-size: 12px;
+}
+
+.feature a small, .feature small a{
+  color: #1DA1F2;
+  line-height: 1;
+  font-size: 12px;
+}
+
+.feature-icon{
+  position: absolute;
+  top: unset;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
+.feature-user1:first{
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 8px;
+  position: relative;
+  min-height: 48px;
+  padding-top: 4px;
+}
+
+
+.feature-user1{
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 8px;
+  position: relative;
+  min-height: 48px;
+  margin-top: 10px;
+}
+
+.feature-free{
+  display: block;
+  margin-bottom: 4px;
+}
+
+.feature-detail{
+  min-height: 48px;
+  margin-left: 58px;
+  margin-right: 20px;
+}
+.feature-close{
+  margin-top: 0px;
+  color: #ccd6dd;
+  float: right;
+  width: 10px;
+  height: 10px;
+}
+
+.fa-times{
+  font-size: 12px;
+}
+
+.feature-name{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.feature-id{
+  font-size: 14px;
+  color: #657786;
+}
+
+.feature-follow{
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.feature-tweet-button{
+  min-width: 89px;
+  background-color: #ffffff;
+  color: #1DA1F2;
+  border: 1px solid #1DA1F2;
+  padding: 4px 12px;
+  font-size: 12px;
+  line-height: 16px;
+}

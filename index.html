@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter</title>
+    <link rel="shortcut icon" href="images.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index2.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item home">
+                <a class="nav-link left" href="#"><i class="fas fa-home"></i><span>ホーム</span></a>
+              </li>
+              <li class="nav-item left">
+                <a class="nav-link text-secondary" href="#"><i class="fas fa-bolt"></i><span>モーメント</span></a>
+              </li>
+              <li class="nav-item left">
+                <a class="nav-link text-secondary" href="#"><i class="far fa-bell"></i><span>通知</span></a>
+              </li>
+              <li class="nav-item left">
+                <a class="nav-link text-secondary" href="#"><i class="far fa-envelope"></i><span>メッセージ</span></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav mr-auto">
+              <li class="text-center">
+                <a class="nav-link" href="#"><i class="fab fa-twitter fa-lg"></i></a>
+              </li>
+            </ul>
+            <div class="header-form">
+              <form class="form-inline">
+                <input class="w-100 form-control rounded-pill header-serch search-width" type="text" placeholder="キーワード検索" aria-label="Search">
+                <span class="search-icon">
+                  <a href = "#"><i class="fas fa-search"></i></a>
+                </span>
+              </form>
+            </div>
+              <ul class="nav right-actions">
+                <li>
+                  <a href="#"><img src="neko.jpg" class="rounded-circle header-icon"></a>
+                </li>
+                <li class="right-action-tweet">
+                  <button type="submit" class="btn rounded-pill header-tweet"><span>ツイート</span></button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="sidebar-profile">
+              <div class="sidebar-profile-header">
+              </div>
+              <div class="sidebar-profile-bottom">
+                <img src="neko.jpg" class="rounded-circle sidebar-profile-myicon">
+                <div class="sidebar-profile-bottom-right">
+                  <div>
+                    <a href="#" class="sidebar-profile-bottom-name">しむ</a><br>
+                  </div>
+                  <div>
+                    <a href="#" class="sidebar-profile-bottom-id">@smmr_yuki_p</a>
+                  </div>
+                </div>
+                <div class="sidebar-profile-bottom-status">
+                  <li class="sidebar-profile-bottom-statuslist">
+                    <a href="#">ツイート<br>
+                      <p class="sidebar-profile-bottom-status-font">366</p>
+                    </a>
+                  </li>
+                  <li class="sidebar-profile-bottom-statuslist-f">
+                  <a href="#">フォロー<br>
+                    <p class="sidebar-profile-bottom-status-font">36</p></a>
+                  </li>
+                  <li class="sidebar-profile-bottom-statuslist-f">
+                    <a href="#">フォロワー<br>
+                      <p class="sidebar-profile-bottom-status-font">34</p></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="trend">
+              <div class="sub-trend">
+                <div class="sub-trend-top">
+                  <span>おすすめトレンド</span><span class="trend-dod">·</span><a href="#" class="trend-change">変更する</a>
+                </div>
+                <ul>
+                  <li class="trend-name">
+                    <span class="trend-top"><a href="#">来たぞ我らの新時代</a></span>
+                    <div class="trend-top-content">平成が、終わる。ヒーローも生まれ変わる。「ULTRAMAN」Netflixで独占販売中。</div>
+                    <div class="trend-top-icon"><i class="fas fa-external-link-square-alt"></i>Netflix Japan Animeによるプロモーション</div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>日本の右傾化</span></a>
+                    <div class="trend-item"><a href="#">6,671件のツイート</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>けもフレ２</span></a>
+                    <div class="trend-item"><a href="#">『けものフレンズ２』最終話を放送　キャスト＆スタッフよりの感謝のメッセージ</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>スタスカ</span></a>
+                    <div class="trend-item"><a href="#">4,645件のツイート</a></div>
+                  </li>
+
+                  <li class="trend-name">
+                    <a href="#"><span>ポプテピ</span></a>
+                    <div class="trend-item"><a href="#">78,790件のツイート</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>歌織さん</span></a>
+                    <div class="trend-item"><a href="#">10,563件のツイート</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>アカウントロック</span></a>
+                    <div class="trend-item"><a href="#">4,296件のツイート</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>#平成の雪見だいふく復刻総選挙</span></a>
+                    <div class="trend-item"><a href="#">2,312件のツイート</a></div>
+                  </li>
+                  <li class="trend-name">
+                    <a href="#"><span>新刀剣男士</span></a>
+                    <div class="trend-item"><a href="#">12,771件のツイート</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="main">
+              <div class="main-top">
+                <div class="main-top-center">
+                    <img src="neko.jpg" class="rounded-circle main-myicon">
+                    <div class="main-top-form">
+                      <div class="main-top-tweet">
+                        <input class="form-control main-top-form-text"type="text" placeholder="いまどうしてる？" aria-label="Search">
+                        <i class="far fa-image"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tweet">
+                  <div class="tweet1">
+                    <div class="tweet1-content">
+                      <div class="tweet1-main-content">
+                        <div class="tweet1-main-name">
+                          <a href="#">
+                            <img src="neko.jpg" class="rounded-circle user-icon">
+                            <span class="user-name">しむ</span>
+                            <span class="user-id"> @smmr_yuki_p</span>
+                            <span class="tweet-time">・34分</span>
+                          </a>
+                          <div class="down">
+                            <i class="fas fa-chevron-down"></i>
+                          </div>
+                        </div>
+                        <div class="tweet1-main-tweet">
+                          <p>aaaaaa</p>
+                        </div>
+                        <div class="tweet1-main-icon">
+                          <div class="tweet1-icon-reply">
+                            <a href="#">
+                              <i class="far fa-comment-dots"></i>
+                            </a>
+                          </div>
+                          <div class="tweet1-icon-retweet">
+                            <a href="#">
+                              <i class="fas fa-retweet"></i>
+                            </a>
+                          </div>
+                          <div class="tweet1-icon-favorite">
+                            <a href="#">
+                              <i class="fas fa-heart"></i>
+                              <span>1</span>
+                            </a>
+                          </div>
+                          <div class="tweet1-icon-chart">
+                            <a href="#">
+                              <i class="far fa-chart-bar"></i>
+                            </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tweet">
+                  <div class="tweet1">
+                    <div class="tweet1-content">
+                      <div class="tweet1-main-content">
+                        <div class="tweet1-main-name">
+                          <a href="#">
+                            <img src="neko.jpg" class="rounded-circle user-icon">
+                            <span class="user-name">しむ</span>
+                            <span class="user-id"> @smmr_yuki_p</span>
+                            <span class="tweet-time">・39分</span>
+                          </a>
+                          <div class="down">
+                            <i class="fas fa-chevron-down"></i>
+                          </div>
+                        </div>
+                        <div class="tweet1-main-tweet">
+                          <p>test</p>
+                        </div>
+                        <div class="tweet1-main-icon">
+                          <div class="tweet1-icon-reply">
+                            <a href="#">
+                              <i class="far fa-comment-dots"></i>
+                            </a>
+                          </div>
+                          <div class="tweet2-icon-retweet">
+                            <a href="#">
+                              <i class="fas fa-retweet"></i>
+                              <span>1</span>
+                            </a>
+                          </div>
+                          <div class="tweet2-icon-favorite">
+                            <a href="#">
+                              <i class="far fa-heart"></i>
+                            </a>
+                          </div>
+                          <div class="tweet1-icon-chart">
+                            <a href="#">
+                              <i class="far fa-chart-bar"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-right-top">
+            <div class="sidebar-right">
+              <div class="feature">
+                <div class="feature-top">
+                  <h3>おすすめユーザー</h3>
+                  <small>·</small>
+                  <a href="#"><small>更新</small></a>
+                  <small>·
+                  <a href="#">すべて見る</a></small>
+                </div>
+                <div class="feature-user">
+                  <div class="feature-user1">
+                    <div class="feature-free">
+                    </div>
+                    <div class="feature-close">
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="feature-detail">
+                      <a href="#">
+                        <img src="neko.jpg" class="rounded-circle feature-icon">
+                        <span class="feature-name">しむ</span>
+                        <span class="feature-id"> @smmr_yuki_p</span>
+                      </a>
+                      <div class="feature-follow">
+                        <button type="submit" class="btn rounded-pill feature-tweet-button"><span>フォローする</span></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feature-user1">
+                    <div class="feature-free">
+                    </div>
+                    <div class="feature-close">
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="feature-detail">
+                      <a href="#">
+                        <img src="neko.jpg" class="rounded-circle feature-icon">
+                        <span class="feature-name">しむ</span>
+                        <span class="feature-id"> @smmr_yuki_p</span>
+                      </a>
+                      <div class="feature-follow">
+                        <button type="submit" class="btn rounded-pill feature-tweet-button"><span>フォローする</span></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feature-user1">
+                    <div class="feature-free">
+                    </div>
+                    <div class="feature-close">
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="feature-detail">
+                      <a href="#">
+                        <img src="neko.jpg" class="rounded-circle feature-icon">
+                        <span class="feature-name">しむ</span>
+                        <span class="feature-id"> @smmr_yuki_p</span>
+                      </a>
+                      <div class="feature-follow">
+                        <button type="submit" class="btn rounded-pill feature-tweet-button"><span>フォローする</span></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feature-user1">
+                    <div class="feature-free">
+                    </div>
+                    <div class="feature-close">
+                      <i class="fas fa-times"></i>
+                    </div>
+                    <div class="feature-detail">
+                      <a href="#">
+                        <img src="neko.jpg" class="rounded-circle feature-icon">
+                        <span class="feature-name">しむ</span>
+                        <span class="feature-id"> @smmr_yuki_p</span>
+                      </a>
+                      <div class="feature-follow">
+                        <button type="submit" class="btn rounded-pill feature-tweet-button"><span>フォローする</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
