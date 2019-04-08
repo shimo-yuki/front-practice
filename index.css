@@ -576,15 +576,17 @@ width: 185px;
 
 .sidebar-right-top{
   width: 290px;
+
 }
 
 .sidebar-right{
   width: 100%;
+  background-color: #ffffff;
 }
 
 .feature{
-  background-color: #ffffff;
   padding: 15px;
+  border: 1px solid#e6ecf0;
 }
 
 .feature-top{
@@ -626,6 +628,13 @@ width: 185px;
   padding-top: 4px;
 }
 
+.feature-user1:last-child{
+  border: none;
+    padding-bottom:0px;
+  position: relative;
+  min-height: 48px;
+  padding-top: 0px;
+}
 
 .feature-user1{
   border-bottom: 1px solid #e6ecf0;
@@ -680,4 +689,65 @@ width: 185px;
   padding: 4px 12px;
   font-size: 12px;
   line-height: 16px;
+}
+
+.feature-email{
+  border: 1px solid #e6ecf0;
+  padding: 15px;
+  line-height: 16px;
+  border-top: 0px;
+}
+
+.feature-email-top{
+  height: 48px;
+  border-bottom: 1px solid #e6ecf0;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.feature-email-icon{
+  float: left;
+  display: block;
+  padding: 4px 6px;
+  border: 1px solid #e6ecf0;
+  border-radius: 3px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.fa-envelope{
+  font-size: 24px;
+}
+
+.feature-email-content{
+  display: block;
+  float: left;
+  margin-left: 7px;
+}
+
+.feature-email-content strong:first-of-type{
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 16px;
+}
+
+.feature-email-content strong:last-of-type{
+  color: #657786;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.other-address{
+  color: #1DA1F2;
+  font-size: 12px;
+}
+
+.other-address a{
+  color: #1DA1F2;
+}
+
+.other-address a:hover{
+  text-decoration: underline;
 }
